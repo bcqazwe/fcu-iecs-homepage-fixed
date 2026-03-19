@@ -805,16 +805,6 @@ footer ul.social-icons {
     padding: 20px 40px;
 }
 
-.section-index-index .card-img-top.overflow-hidden {
-    aspect-ratio: 1336 / 470;
-}
-
-.section-index-index .card-img-top.overflow-hidden img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .section-index-index .card-img-scale {
     transition: all 0.5s ease;
 }

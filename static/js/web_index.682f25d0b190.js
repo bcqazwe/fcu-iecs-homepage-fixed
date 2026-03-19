@@ -30,8 +30,6 @@ document.querySelector('#modalForVideo').addEventListener('hide.bs.modal', () =>
 
 window.addEventListener('load', () => {
     let index_about = document.querySelector('.index-about-background');
-    if (index_about) {
-        let bgimg = index_about.dataset.bgimg;
-        index_about.style.backgroundImage = `url(${location.origin + bgimg})`;
-    }
+    let bgimg = index_about.dataset.bgimg;
+    document.getElementsByClassName('index-about-background')[0].style.backgroundImage = `url(${location.origin + bgimg})`;
 });
